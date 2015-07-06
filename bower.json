@@ -1,0 +1,15 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "authors": [
+    "ricksto87 <richard.stones@appsense.com>"
+  ],
+  "description": "job finding app",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.1",
+    "bootstrap": "~3.3.5"
+  }
+}
