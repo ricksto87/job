@@ -19,8 +19,8 @@ app.get('*', function(req, res) {
     res.render('index');
 });
 
-mongoose.connect('mongodb://localhost/jobfinder');
-//mongoose.connect('mongodb://rick:onelegged1@ds061208.mongolab.com:61208/jobfinder');
+//mongoose.connect('mongodb://localhost/jobfinder');
+mongoose.connect('mongodb://rick:onelegged1@ds061208.mongolab.com:61208/jobfinder');
 
 var con = mongoose.connection;
 
